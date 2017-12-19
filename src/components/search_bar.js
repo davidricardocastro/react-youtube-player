@@ -10,7 +10,9 @@ class SearchBar extends Component {
 
     render() {
         return (
+            
             <div className="search-bar">
+            <a href="index.html"><img src="./img/play.svg" alt="play" height="42" width="42"/></a>
                 <input
                 placeholder="Search..."
                     value={this.state.term}

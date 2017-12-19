@@ -1,4 +1,9 @@
+.container{
+    background-color: rgba(198, 204, 204, 0.884);
+}
+
 .search-bar{
+    padding: 20px;
     margin: 20px;
     text-align: center;
 }
@@ -15,11 +20,12 @@
     margin-top:10px;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    
 }
 
 .list-group-item {
     cursor: pointer;
+    
 }
 
 .list-group-item:hover{
