@@ -11,7 +11,7 @@ class SearchBar extends Component {
     render() {
         return (
             
-            <div className="input-group my-3">
+            <div className="input-group m-3">
 
             <a class="navbar-brand" href="index.html">
             <img src="/img/play.svg" width="30" height="30" class="d-inline-block align-top" alt=""/> 

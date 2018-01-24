@@ -1,4 +1,13 @@
-.search-bar{
+.container{
+    background-color: rgba(48, 83, 14, 0.397);
+}
+
+.devBy{
+    text-align: center;
+    font-size: 15px;
+}
+
+/*.search-bar{
     margin: 20px;
     text-align: center;
 }
@@ -24,4 +33,4 @@
 
 .list-group-item:hover{
     background-color: #eee;
-}
+}*/
