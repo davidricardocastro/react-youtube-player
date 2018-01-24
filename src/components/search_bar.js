@@ -11,9 +11,14 @@ class SearchBar extends Component {
     render() {
         return (
             
-            <div className="search-bar">
-            <a href="index.html"><img src="./img/play.svg" alt="play" height="42" width="42"/></a>
+            <div className="input-group my-3">
+
+            <a class="navbar-brand" href="index.html">
+            <img src="/img/play.svg" width="30" height="30" class="d-inline-block align-top" alt=""/> 
+          </a>
+
                 <input
+                className="form-control"
                 placeholder="Search..."
                     value={this.state.term}
                     onChange={event => this.onInputChange(event.target.value)} />
