@@ -1,5 +1,5 @@
 .container{
-    background-color: rgba(48, 83, 14, 0.397);
+    background-color: rgba(193, 212, 21, 0.39);
 }
 
 .devBy{
@@ -7,6 +7,9 @@
     font-size: 15px;
 }
 
+.spacer{
+    height: 20px;
+}
 /*.search-bar{
     margin: 20px;
     text-align: center;
